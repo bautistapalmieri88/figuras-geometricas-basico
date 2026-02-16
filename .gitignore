@@ -1,10 +1,17 @@
-# Eclipse 
-/.metadata/ 
-/bin/ 
-/.settings/ 
-/*.class 
-# VSCode 
-/.vscode/ 
-# JDK / sistema 
-/.p2/ 
-*.log 
+# Compiled class files
+*.class
+
+# Eclipse files
+.settings/
+bin/
+.metadata/
+*.launch
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
