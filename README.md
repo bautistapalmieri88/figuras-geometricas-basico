@@ -1,234 +1,93 @@
 # Geometric Figures – Initial Version
 
-# 
+# Figuras Geométricas – Versión Inicial
 
-# 
+### Description
 
-# **Description**
+This project represents the first evaluable assignment developed at the beginning of the Programming module.
 
-# 
+It is a console-based Java application that allows the user to calculate the **area and perimeter** of different geometric figures through a menu system.
 
-# This project represents the first evaluable assignment developed at the beginning of the Programming module.
+The program interacts with the user using `Scanner` and validates input values to avoid incorrect calculations.
 
-# 
+---
 
-# It is a console-based Java application that allows the user to calculate the area and perimeter of different geometric figures using an interactive menu.
+### Concepts Practiced
 
-# 
+* User input handling with `Scanner`
+* Control structures (`switch`, `if`, `do-while`)
+* Variables and primitive data types
+* Basic mathematical formulas
+* Input validation
+* Structured programming approach
 
-# The program interacts with the user through the console and validates input values to prevent incorrect calculations.
+At this stage, Object-Oriented Programming concepts such as inheritance, abstract classes, and polymorphism had not yet been introduced.
 
-# 
+---
 
-# **Learning Objectives**
+### Technical Characteristics
 
-# 
+* All logic is implemented inside the `main` method
+* Each figure is calculated directly within the `switch` structure
+* No separation into multiple classes
 
-# At this stage of the course, the goal was to practice:
+This repository is intentionally kept in its original form to demonstrate the starting point of the learning process.
 
-# 
+---
 
-1. Using Scanner for user input
-   
-   ===
-2. Control structures (switch, do-while, if)
-   
-   ===
-3. Variables and data types
-   
-   ===
-4. Basic mathematical calculations
-   
-   ===
-5. # Input validation
+### Learning Evolution
 
-# 
+An improved Object-Oriented version of this project is available here:
 
-# Object-Oriented Programming concepts such as inheritance, abstract classes, and polymorphism had not yet been introduced.
+👉 https://github.com/bautistapalmieri88/figuras-geometricas-javaPOO
 
-# 
+This advanced version introduces:
 
-* # Technical Characteristics
+* Abstract classes
+* Inheritance
+* Method overriding
+* Polymorphism
+* Better separation of responsibilities
 
-# 
+The goal of keeping both repositories is to clearly show technical progression and code refactoring.
 
-* # All logic is implemented inside the main method
+---
 
-# 
+### Descripción
 
-* # Each geometric figure is calculated directly within the switch statement
+Este proyecto representa la primera actividad evaluable realizada al inicio del módulo de Programación.
 
-# 
+Se trata de una aplicación de consola en Java que permite calcular el **área y el perímetro** de distintas figuras geométricas mediante un sistema de menú.
 
-* # No class separation or method abstraction
+El programa interactúa con el usuario a través de `Scanner` y valida los datos introducidos para evitar errores.
 
-# 
+---
 
-* # Structured programming approach
+### Conceptos trabajados
 
-# 
+* Entrada de datos con `Scanner`
+* Estructuras de control (`switch`, `if`, `do-while`)
+* Variables y tipos de datos primitivos
+* Fórmulas matemáticas básicas
+* Validación de datos
+* Programación estructurada
 
-# This repository is intentionally kept in its original form to demonstrate the starting point of the learning process.
+En este período aún no se habían aplicado conceptos de Programación Orientada a Objetos como herencia o clases abstractas.
 
-# 
+---
 
-# Evolution
+### Características técnicas
 
-# 
+* Toda la lógica está dentro del método `main`
+* Cada figura se calcula directamente en el `switch`
+* No existe separación en múltiples clases
 
-# A refactored and improved Object-Oriented version of this project is available here:
+Este repositorio se mantiene sin modificar para mostrar el punto de partida del aprendizaje.
 
-# 
+---
 
-# 👉 https://github.com/bautistapalmieri88/figuras-geometricas-javaPOO.git
+## Author / Autor
 
-# 
-
-# The improved version introduces:
-
-# 
-
-# Abstract class Figure
-
-# 
-
-# Inheritance
-
-# 
-
-# Method overriding (@Override)
-
-# 
-
-# Polymorphism
-
-# 
-
-# Separation of responsibilities
-
-# 
-
-# The purpose is to clearly show the evolution from structured programming to Object-Oriented Programming.
-
-# 
-
-# ------------------------------------------------------------
-
-# 
-
-# **Descripción**
-
-# 
-
-# Este proyecto representa la primera actividad evaluable realizada al inicio del módulo de Programación.
-
-# 
-
-# Se trata de una aplicación de consola en Java que permite calcular el área y el perímetro de distintas figuras geométricas mediante un sistema de menú interactivo.
-
-# 
-
-# El programa interactúa con el usuario por consola y valida los valores introducidos para evitar cálculos incorrectos.
-
-# 
-
-# **Objetivos de aprendizaje**
-
-# 
-
-# En este punto del curso, el objetivo era implementar:
-
-# 
-
-1. Uso de Scanner
-   
-   ===
-2. Estructuras de control (switch, do-while, if)
-   
-   ===
-3. Variables y tipos de datos
-   
-   ===
-4. Cálculos matemáticos básicos
-   
-   ===
-5. # Validación de datos
-
-# 
-
-# Aún no se han visto conceptos de Programación Orientada a Objetos como herencia, clases abstractas o polimorfismo.
-
-# 
-
-# Características técnicas
-
-# 
-
-* # Toda la lógica se encuentra dentro del método main
-
-# 
-
-* # Cada figura geométrica se calcula directamente en el switch
-
-# 
-
-* # No existe separación en clases ni abstracción en métodos
-
-# 
-
-* # Enfoque de programación estructurada
-
-# 
-
-# Este repositorio se mantiene en su forma original para mostrar el punto de partida del proceso de aprendizaje.
-
-# 
-
-# Evolución
-
-# 
-
-# Existe una versión refactorizada aplicando Programación Orientada a Objetos disponible aquí:
-
-# 
-
-# 👉 https://github.com/bautistapalmieri88/figuras-geometricas-javaPOO.git
-
-# 
-
-# La versión mejorada introduce:
-
-# 
-
-# Clase abstracta Figura
-
-# 
-
-# Herencia
-
-# 
-
-# Sobreescritura de métodos (@Override)
-
-# 
-
-# Polimorfismo
-
-# 
-
-# Separación de responsabilidades
-
-# 
-
-# El objetivo es mostrar claramente la evolución desde programación estructurada hacia Programación Orientada a Objetos.
-
-# 
-
-# Author / Autor
-
-# 
-
-# Bautista Palmieri
-
-# Student of Development of Multi-Platform Applications (DAM)
+Bautista Palmieri
+Student of Development of Multi-Platform Applications (DAM)
 
