@@ -1,0 +1,10 @@
+# Eclipse 
+/.metadata/ 
+/bin/ 
+/.settings/ 
+/*.class 
+# VSCode 
+/.vscode/ 
+# JDK / sistema 
+/.p2/ 
+*.log 
